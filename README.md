@@ -11,9 +11,9 @@
 
 ### Task 1: Project Set-up
 
-* [ ] **Fork** this repository, then clone your fork.
-* [ ] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
-* [ ] Execute `npm run start` to launch your Movies application in Chrome.
+* [x] **Fork** this repository, then clone your fork.
+* [x] Execute `npm install` to download dependencies. The `react-router-dom` library is already installed!
+* [x] Execute `npm run start` to launch your Movies application in Chrome.
 
 **Once your application is up and running**, you should see a browser window that looks like [this](./design-files/design-1-starter.png) at `http://localhost:3000`.
 
@@ -23,22 +23,22 @@
 
 Once you are done your application will have two routes:
 
-* [ ] [Screenshot of route '/'](./design-files/design-2-routeA.png)
-* [ ] [Screenshot of route '/movies/:id'](./design-files/design-3-routeB.png)
+* [x] [Screenshot of route '/'](./design-files/design-2-routeA.png)
+* [x] [Screenshot of route '/movies/:id'](./design-files/design-3-routeB.png)
 
 #### Set up Routes
 
-* [ ] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
+* [x] Wrap the `App` component with `BrowserRouter` in `src/index.js`.
 * [ ] Inside your App file add two routes.
-  * [ ] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
-  * [ ] one route that will take an `id` parameter after`/movies/` (EG: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
+  * [x] one route for `/` that loads the `MovieList` component. This component will need the movies injected into it via props.
+  * [x] one route that will take an `id` parameter after`/movies/` (EG: `/movies/2`, `/movies/3` where the id is dynamic). This route should load the `Movie` component.
 
 #### Add Functionality
 
-* [ ] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
-* [ ] You will need to modify line 7 of `Movie.js` to get the id of the selected movie from the URL.
-* [ ] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
-* [ ] You should now be able to navigate back and forth between the list of movies and the detailed view of a single movie.
+* [x] When a user clicks on the movie card inside `MovieList` they should be taken to `/movies/{id of clicked movie here}` to see the details of the selected movie.
+* [x] You will need to modify line 7 of `Movie.js` to get the id of the selected movie from the URL.
+* [x] Add functionality so the `Home` button on the `SavedList` component navigates back to home.
+* [x] You should now be able to navigate back and forth between the list of movies and the detailed view of a single movie.
 
 ### Task 3: Stretch Goals
 
